@@ -2,7 +2,7 @@
 const promise = new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest()
 
-    xhr.open("GET", "https://api.npoint.io/adb72ae9669d20314bc6", true)
+    xhr.open("GET", "https://api.npoint.io/46229389514a25ce4fb7", true)
     xhr.onload = function(){
         // http code : 200 -> OK
         if (xhr.status === 200){
